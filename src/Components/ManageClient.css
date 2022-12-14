@@ -1,0 +1,194 @@
+#side-heading {
+    text-align: left;
+    font: normal normal bold 16px/36px PT Sans;
+    letter-spacing: 0px;
+    color: #7C7C7C;
+    text-transform: uppercase;
+    opacity: 1;
+}
+
+.menuCard {
+    width: 275px;
+    height: 100px;
+    color: white;
+    display: flex;
+    /* UI Properties */
+    background: #605CC7 0% 0% no-repeat padding-box;
+    box-shadow: 0px 0px 20px #00000026;
+    border-radius: 6px;
+    opacity: 1;
+    align-items: center;
+    justify-content: flex-start;
+    margin: 10px 15px;
+}
+
+form {
+    color: #555;
+    display: flex;
+    padding: 2px;
+    border: 0.5px solid currentColor;
+    border-radius: 5px;
+    display: inline-flex;
+}
+
+input[type="search"] {
+    border: none;
+    background: transparent;
+    margin: 0;
+    padding: 7px 8px;
+    font-size: 14px;
+    color: inherit;
+    border: 1px solid transparent;
+    border-radius: inherit;
+}
+
+input[type="search"]::placeholder {
+    color: #bbb;
+}
+
+#dis {
+    display: flex;
+    flex-direction: row;
+}
+
+#Quicksearch {
+    border: none;
+}
+
+#inputIcon {
+    text-indent: -999px;
+    overflow: hidden;
+    width: 40px;
+    padding: 0;
+    margin: 0;
+    border: 1px solid transparent;
+    border-radius: inherit;
+    background: transparent url("data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' width='16' height='16' class='bi bi-search' viewBox='0 0 16 16'%3E%3Cpath d='M11.742 10.344a6.5 6.5 0 1 0-1.397 1.398h-.001c.03.04.062.078.098.115l3.85 3.85a1 1 0 0 0 1.415-1.414l-3.85-3.85a1.007 1.007 0 0 0-.115-.1zM12 6.5a5.5 5.5 0 1 1-11 0 5.5 5.5 0 0 1 11 0z'%3E%3C/path%3E%3C/svg%3E") no-repeat center;
+    cursor: pointer;
+    opacity: 0.7;
+
+}
+
+#sortByName {
+    color: #605cc7;
+    padding: 12px 5px;
+    border: 0.5px solid currentColor;
+    border-radius: 5px;
+}
+
+#main-content {
+    margin-top: 100px;
+    padding: 0px 20px;
+}
+
+.menuContent {
+    /* UI Properties */
+    text-align: left;
+    font: normal normal bold 18px/24px PT Sans;
+    letter-spacing: 0px;
+    /* color: #FFFFFF; */
+    opacity: 1;
+    margin-left: 20px;
+}
+
+.allClients {
+    display: inline-flex;
+    flex-wrap: wrap;
+}
+
+.clientsData {
+    display: flex;
+}
+
+#side-heading {
+    display: flex;
+    justify-content: space-between;
+}
+
+span#sub-right-menu {
+    margin-right: 20px;
+}
+
+
+.nonActive {
+    width: 275px;
+    height: 100px;
+    color: white;
+    display: flex;
+    /* UI Properties */
+    align-items: center;
+    justify-content: flex-start;
+    margin: 10px 15px;
+    color: #292b6b;
+    background: #FFFFFF 0% 0% no-repeat padding-box;
+    box-shadow: 0px 0px 20px #00000026;
+    border-radius: 6px;
+    opacity: 1;
+}
+
+/* footer */
+#clientBtn {
+    width: 164px;
+    height: 50px;
+    /* UI Properties */
+    background: #605cc7 0% 0% no-repeat padding-box;
+    background: #605CC7 0% 0% no-repeat padding-box;
+    box-shadow: 0px 0px 20px #00000026;
+    border-radius: 25px;
+    opacity: 1;
+    color: white
+}
+
+.footer {
+    display: flex;
+    justify-content: space-between;
+
+}
+
+span#footerRightMenu {
+    margin-right: 100px;
+}
+
+#footerLeftMenu {
+    color: black;
+}
+
+.page-num {
+    width: 38px;
+    height: 38px;
+    /* UI Properties */
+    background: #605cc7 0% 0% no-repeat padding-box;
+    border: 1px solid #d2d2d2;
+    background: #605CC7 0% 0% no-repeat padding-box;
+    border: 1px solid #D2D2D2;
+    color: white;
+    border-radius: 3px;
+    opacity: 1;
+    padding: 5px 10px;
+}
+
+.page-num2 {
+    width: 38px;
+    height: 38px;
+    /* UI Properties */
+    background: var(--unnamed-color-605cc7) 0% 0% no-repeat padding-box;
+    border: 1px solid var(--unnamed-color-d2d2d2);
+    background: #FFFFFF 0% 0% no-repeat padding-box;
+    color: black;
+    border: 1px solid #D2D2D2;
+    border-radius: 3px;
+    opacity: 1;
+    padding: 5px 10px;
+    margin-left: 10px;
+}
+
+/* #Page-number{
+    width: 38px;
+height: 38px;
+background: var(--unnamed-color-ffffff) 0% 0% no-repeat padding-box;
+border: 1px solid var(--unnamed-color-d2d2d2);
+background: #FFFFFF 0% 0% no-repeat padding-box;
+border: 1px solid #D2D2D2;
+border-radius: 3px;
+opacity: 1;
+} */
