@@ -1,23 +1,26 @@
-#navbarSupportedContent {
-  background-color: #F5F5F5;
+#navbarSupporte {
+  background-color: #FFFFFF;
   margin-bottom: 20px;
   cursor: pointer;
+  background: transparent linear-gradient(122deg, #FFFFFF 0%, #F5F5F5 100%) 0% 0% no-repeat padding-box;
+opacity: 1;
 }
 
 .collapse.navbar-collapse {
   justify-content: space-between;
+
 }
 
 .nav-div {
-  /* width: 210px; */
   height: 42px;
   text-align: left;
-  font: normal normal bold 28px/36px PT Sans;
+  font: normal normal bold 23px/36px 'PT Sans', sans-serif;
   letter-spacing: 0px;
   color: #000000;
   opacity: 1;
   padding-left: 23px;
-  padding-top: 11px;
+  padding-top: 2px;
+  
 }
 
 .nav-bell {
@@ -25,8 +28,13 @@
   left: 1247px;
   width: 31px;
   height: 35px;
-  /* UI Properties */
-  /* background: transparent url("Bell.png") 0% 0% no-repeat padding-box; */
   opacity: 1;
   margin-top: 5px;
+  margin-right: 6px;
+}
+.nav-group{
+  padding-left: 17px;
+}
+.nav-home{
+  padding-left: 5px;
 }
